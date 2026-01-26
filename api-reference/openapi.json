@@ -21,7 +21,7 @@
   "paths": {
     "/plants": {
       "get": {
-        "description": "Returns all plants from the system that the user has access to",
+        "description": "Retrieves all plants registered in the system",
         "parameters": [
           {
             "name": "limit",
@@ -161,7 +161,7 @@
         "type": "object",
         "properties": {
           "name": {
-            "description": "The name of the plant",
+            "description": "Name of the plant following the family and class in biology.",
             "type": "string"
           },
           "tag": {
